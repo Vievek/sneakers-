@@ -1,7 +1,6 @@
 import React from 'react'
 import ProductImage from './ProductImage'
 import ProductInfo from './ProductInfo'
-git
 function MainContent() {
   return (
     <>
