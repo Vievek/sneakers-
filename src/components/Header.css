@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 150px;
+    margin: 20px 15px;
+    padding: 10px 20px;
+}
+.sneakers{
+    font-family: 'Oxanium', sans-serif;
+}
+.navList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+    color: gray;
+}
+.navList li :hover{
+    color: black;
+}
+.navImg {
+    position: absolute;
+    display: flex;
+    right: 0;
+    gap: 30px;
+}
+.navImg img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}

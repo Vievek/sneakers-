@@ -1,0 +1,116 @@
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    margin: 100px ;
+}
+
+.ProductImage{
+    width: 50%;
+    height: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.MainImage{
+    height: 49vh;
+   
+}
+.img{
+    height: 40vh;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.SubImages{
+    height: 21vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.SubImages img {
+    height: 15vh;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.SubImages img:hover {
+    border: 3px solid gold;
+}
+
+
+
+.ProductInfo{
+    width: 50%;
+    margin: 0px 80px 50px 220px;
+    text-align: left;
+}
+
+.ProductTitle{
+    margin-bottom: 50px;
+}
+.ProductTitle h3{
+    color: orange;
+}
+.ProductTitle h1{
+    font-family: 'Poppins',sans-serif;
+}
+
+.ProductDescription{
+    color:rgb(102, 136, 231) ;
+    margin-bottom: 30px;
+}
+
+.PriceComponent h1{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+}
+.PriceComponent h3{
+    display: inline;
+    color: orange;
+    background-color: lightblue;
+}
+.PriceComponent del{
+    color: rgb(102, 136, 231);
+    background-color: white;
+    display: block;
+}
+
+.QuantitySelector{
+    display: inline-block;
+    margin: 30px 10px;
+}
+.QuantitySelector button{
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    border: none;
+    color: orange;
+    font-size: 1.5em;
+}
+.QuantitySelector p{
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+
+.AddToCartButton{
+    width: 250px;
+    height: 50px;
+    position: relative;
+    background-color: orange;
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    transition: all 100ms;
+}
+.AddToCartButton:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+}
